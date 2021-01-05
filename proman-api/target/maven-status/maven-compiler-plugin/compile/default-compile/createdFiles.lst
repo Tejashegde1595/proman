@@ -2,6 +2,7 @@ org\example\proman\api\model\UserSummaryType.class
 io\swagger\configuration\HomeController.class
 org\example\proman\api\model\RoleDetailsType.class
 org\example\proman\api\model\PermissionsType.class
+org\example\proman\api\Controllers\UserAdminController.class
 org\example\proman\api\model\RoleType.class
 io\swagger\api\ApiResponseMessage.class
 org\example\proman\api\Config\SwaggerConfiguration.class
@@ -10,13 +11,16 @@ org\example\proman\api\model\CreateUserRequest.class
 io\swagger\Swagger2SpringBoot.class
 io\swagger\api\ApiOriginFilter.class
 io\swagger\Swagger2SpringBoot$ExitException.class
+org\example\proman\api\Controllers\AuthenticationController.class
 org\example\proman\api\model\UserOperationRequest.class
 org\example\proman\api\model\UserStatusType.class
+org\example\proman\api\exception\RestExceptionHandler.class
 org\example\proman\api\model\CreateUserResponse.class
 org\example\proman\api\model\UserOperationRequest$OpEnum.class
 org\example\proman\api\model\UserOperationRequest$PathEnum.class
 org\example\proman\api\model\SignupUserResponse.class
 org\example\proman\api\PromanApiApplication.class
+org\example\proman\api\model\AuthorizedUserResponse.class
 org\example\proman\api\Controllers\SignupController.class
 io\swagger\api\NotFoundException.class
 org\example\proman\api\model\ErrorResponse.class

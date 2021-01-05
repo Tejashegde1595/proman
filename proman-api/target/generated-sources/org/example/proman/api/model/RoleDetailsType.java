@@ -16,7 +16,7 @@ import javax.validation.constraints.*;
  * RoleDetailsType
  */
 @Validated
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2021-01-02T18:31:19.985+05:30")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2021-01-05T11:48:38.015+05:30")
 
 public class RoleDetailsType   {
   @JsonProperty("id")
@@ -35,10 +35,10 @@ public class RoleDetailsType   {
   }
 
   /**
-   * Role id of the user
+   * Role id of authorized user
    * @return id
   **/
-  @ApiModelProperty(required = true, value = "Role id of the user")
+  @ApiModelProperty(required = true, value = "Role id of authorized user")
   @NotNull
 
 
@@ -56,10 +56,10 @@ public class RoleDetailsType   {
   }
 
   /**
-   * Role name of the user
+   * Role name of authorized user
    * @return name
   **/
-  @ApiModelProperty(required = true, value = "Role name of the user")
+  @ApiModelProperty(required = true, value = "Role name of authorized user")
   @NotNull
 
 
@@ -82,10 +82,10 @@ public class RoleDetailsType   {
   }
 
   /**
-   * Permissions assigned to the user
+   * Permissions assigned to authorized user
    * @return permissions
   **/
-  @ApiModelProperty(required = true, value = "Permissions assigned to the user")
+  @ApiModelProperty(required = true, value = "Permissions assigned to authorized user")
   @NotNull
 
   @Valid
